@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; margin: 0; padding: 0; 
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+label {
+  border: none;
+  padding: 10px;
+  background-color: lightcoral;
+  box-shadow: 0px 5px 0px red;
+  color: white;
+  text-transform: uppercase;
+  min-width: 135px;
+  text-align: center;
+}
+
+input:checked ~label{position: relative;top: 5px;box-shadow: none;background-color: lightcoral;}
+.invisivel{display: none;}
